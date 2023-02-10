@@ -5,7 +5,7 @@ export function countryCardTemplate({ flags, name, capital, population, language
 		<h2 class="country-info__name">${name}</h2>
 		<p class="country-info__capital">Capital:${capital}</p>
 		<p class="country-info__population">Population:${population}</p>
-		<p class="country-info__languages">Languages:${languages}</p>
+		<p class="country-info__languages">Languages:${languages[0].name}</p>
 		</div>
 		`;
 }
